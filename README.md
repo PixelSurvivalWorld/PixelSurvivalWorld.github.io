@@ -1,357 +1,141 @@
-# Pixel Survival World - Website Design Document
-
-## Overview
-
-"Pixel Survival World" is a game that combines pixel art style, survival gameplay, and blockchain technology. The official website design adopts a cartoonish, pixel art style similar to Minecraft's aesthetics, while showcasing the game's core features and blockchain-enabled innovations.
-
-## Design Style
-
-- **Pixel Art Style**: All UI elements, buttons, and icons use pixel art treatment
-- **Color Scheme**: Bright, saturated colors with green (representing survival) and blue (representing blockchain technology) as primary colors
-- **Typography**: Pixel-style fonts that maintain readability while staying consistent with the game style
-- **Animations**: Simple but engaging pixel animations for hover effects, loading states, etc.
-
-## Website Structure and Pages
-
-### 1. Home Page
-
-#### Top Navigation Bar
-- Game Logo (pixel style)
-- Navigation Links: Home, Game Intro, Features, NFT Market, Community, Download
-- Connect Wallet Button (prominent position)
-- Language Switcher
-
-#### Hero Section
-- Full-screen pixel-style game scene background
-- Prominent Title: "Pixel Survival World"
-- Subtitle: "Blockchain-Powered Survival Adventure"
-- Main Action Buttons:
-  - "Play Now"
-  - "Connect Wallet"
-  - "Learn More"
-- Brief game introduction animation (short clip of pixel characters in the survival world)
-
-#### Game Highlights Overview
-- 3-4 icons and brief descriptions of core features:
-  - Survival Play
-  - Blockchain Integration
-  - Pixel Building
-  - Community Creation
-
-#### Latest Announcements/News
-- Scrolls to display latest game updates, events, and community news
-- Each contains date, title, and brief description
-- "View All" button
-
-#### Game Trailer
-- Embedded video player to showcase game trailer
-- Pixel-style video control buttons
-
-#### Community Data Display
-- Player Count
-- Created World Count
-- Transaction Data on Blockchain
-- Use pixel-style counters and icons
-
-### 2. Game Introduction Page
-
-#### Game Story
-- Pixel-style story illustrations
-- Game background story text
-- Displayed in chapters
-
-#### Game World
-- Display of different biosphere systems
-- Pixel-style world map
-- Brief description of each area
-
-#### Game Characters
-- Display of selectable characters
-- Character features and abilities description
-- Pixel-style character illustrations
-
-#### Game Objectives
-- Survival mechanism description
-- Game progress and achievement system
-- Use pixel icons to describe different objectives
-
-### 3. Game Features Page
-
-#### Survival Play
-- Resource collection system
-- Building mechanism
-- Survival challenges
-- Use pixel-style explanatory diagrams
-
-#### Blockchain Integration
-- Token economy description
-- Digital ownership concept
-- Blockchain technology advantages
-- Use simplified pixel-style charts
-
-#### Game NFTs
-- NFT item display
-- Rarity system
-- Collection value
-- Pixel-style NFT display frame
-
-#### Community Governance
-- DAO mechanism description
-- Voting system
-- Community proposal process
-- Pixel-style governance icons
-
-### 4. NFT Market Page
-
-#### Market Overview
-- Popular NFT display
-- Price trend
-- Transaction volume data
-- Pixel-style charts and data visualization
-
-#### Browse Categories
-- By type (weapons, equipment, land, etc.)
-- By rarity
-- By price
-- Pixel-style category icons
-
-#### NFT Details
-- Large image display
-- Attribute list
-- Transaction history
-- Current owner
-- Bid/Purchase button
-
-#### My Collection
-- Displayed NFTs I own
-- Sale management
-- Pixel-style collection display frame
-
-### 5. Community Page
-
-#### Announcement Board
-- Official announcements
-- Update log
-- Activity calendar
-- Pixel-style announcement board design
-
-#### Player Display
-- Excellent player works
-- Community creation content
-- Player ranking
-- Pixel-style display frame
-
-#### Forum Entry
-- Latest hot topics
-- Category discussion area
-- Pixel-style forum icons
-
-#### Social Media
-- Social media links
-- Discord server invitation
-- Pixel-style social media icons
-
-### 6. Download Page
-
-#### System Requirements
-- Minimum configuration
-- Recommended configuration
-- Pixel-style computer/device icons
-
-#### Download Options
-- PC version (Windows/Mac/Linux)
-- Mobile version (iOS/Android)
-- Pixel-style download button
-
-#### Installation Guide
-- Step-by-step installation instructions
-- Common questions and answers
-- Pixel-style guide icons
-
-### 7. Wallet Connection Function
-
-#### Supported Wallets
-- MetaMask
-- WalletConnect
-- Other mainstream wallets
-- Pixel-style wallet icons
-
-#### Connection Process
-- Step description
-- Security tips
-- Pixel-style connection process diagram
-
-#### Account Information
-- Balance display
-- Owned NFTs
-- Transaction history
-- Pixel-style account information panel
-
-## Interactive Elements
-
-### Button Design
-- Pixel-style border
-- Hover animation effect
-- Click feedback effect
-
-### Form Elements
-- Pixel-style input box
-- Checkbox and single-choice button
-- Dropdown menu
-
-### Loading Animation
-- Pixel-style loading icon
-- Progress bar design
-
-### Popup Design
-- Pixel-style border
-- Close button
-- Animation transition effect
-
-## Responsive Design
-
-### Desktop Version
-- Full-function display
-- Wide screen layout optimization
-
-### Tablet Version
-- Adapt to medium screen
-- Touch-friendly interaction
-
-### Mobile Version
-- Simplified navigation (hamburger menu)
-- Vertical layout optimization
-- Touch-optimized button size
-
-## Technical Implementation Suggestions
-
-### Frontend Technology
-- React/Next.js framework
-- Tailwind CSS style
-- Framer Motion animation
-- Web3.js/ethers.js blockchain interaction
-
-### Backend Technology
-- Node.js server
-- MongoDB database
-- Blockchain API integration
-
-### Blockchain Integration
-- Smart contract interface
-- NFT standard (ERC-721/ERC-1155)
-- Multi-chain support
-
-## Development Roadmap
-
-### First Stage
-- Home page and basic page structure
-- Responsive design framework
-- Basic wallet connection function
-
-### Second Stage
-- Complete page content
-- NFT market basic function
-- Community function
-
-### Third Stage
-- Advanced blockchain function
-- Performance optimization
-- Multi-language support
-
-## Design Resource
-
-### Pixel Art Resource
-- Game character pixel map
-- Environment elements
-- UI components
-
-### Font Selection
-- Main title pixel font
-- Body pixel font (ensure readability)
-
-### Icon Library
-- Navigation icons
-- Function icons
-- Social media icons
-
-## User Experience Consideration
-
-### New User Guidance
-- Wallet connection tutorial
-- Game entry guide
-- Blockchain basic knowledge
-
-### Loading Optimization
-- Progressive loading
-- Preload key resources
-- Small game during loading
-
-### Accessibility Design
-- Color contrast consideration
-- Keyboard navigation support
-- Screen reader compatibility (while maintaining pixel style)
-
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
-
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
-
-"use client";
-
-import Image from 'next/image';
-import Link from 'next/link';
-
-// NFT type definition
-interface NFT {
-  // Type definition remains unchanged
-}
-
-// Remaining code remains unchanged
-
-## Packaging and Deployment Instructions
-
-### Packaging the Website
-
-To package the website into a ZIP file, run the following command:
+# MEMEFI - The Perfect Fusion of Meme Culture and DeFi
+
+<div align="center">
+  <img src="images/memefi-logo.png" alt="MEMEFI Logo" width="200">
+  <br>
+  <h3>🚀 "Ownership Equals Wealth" 🚀</h3>
+  <p>A Community-Driven Wealth Ecosystem on Binance Smart Chain</p>
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+  ![BSC](https://img.shields.io/badge/BSC-Network-F0B90B)
+</div>
+
+## 🌟 Overview
+
+MEMEFI represents the perfect fusion of Meme culture and Decentralized Finance (DeFi), designed to revitalize the cryptocurrency market through a powerful economic model, high community consensus, and innovative token mechanisms.
+
+Our motto: **"Sellers regret, holders earn dividends."** MEMEFI transcends the typical Meme coin project, establishing itself as a holder-centric ecosystem that drives value growth through dynamic taxation and follow-up mechanisms.
+
+## 🔗 Important Links
+
+- **Website**: [https://memefinancebsc.github.io/](https://memefinancebsc.github.io/)
+- **Whitepaper**: [https://memefi-sorganization.gitbook.io/doc.memefi](https://memefi-sorganization.gitbook.io/doc.memefi)
+- **Smart Contract**: [https://bscscan.com/](https://bscscan.com/)
+- **Audit Report**: [https://gopluslabs.io/token-security/56/](https://gopluslabs.io/token-security/56/)
+
+## 💰 Token Information
+
+- **Name**: MEMEFI
+- **Symbol**: MMF
+- **Blockchain**: Binance Smart Chain (BSC)
+- **Token Standard**: BEP-20
+- **Total Supply**: 100,000,000 MMF
+
+## 🔥 Key Features
+
+- **Community-Driven Governance**: Token holders have voting rights on project decisions
+- **Dynamic Taxation System**: Rewards long-term holders while discouraging short-term speculation
+- **Referral Program**: Earn 5% bonus tokens for each person you refer
+- **Deflationary Mechanism**: Automatic token burns to reduce supply over time
+- **Liquidity Lock**: Initial liquidity locked to ensure project stability
+
+## 📊 Tokenomics
+
+| Allocation | Percentage | Description |
+|------------|------------|-------------|
+| Public Sale | 40% | Available through IDO |
+| Liquidity Pool | 25% | Locked for 1 year |
+| Team | 15% | Vested over 2 years |
+| Marketing | 10% | For promotional activities |
+| Ecosystem | 10% | For partnerships and development |
+
+### Tax Distribution
+
+- **Buy Tax**: 5%
+  - 3% to holders as MMF dividends
+  - 2% to liquidity pool
+
+- **Sell Tax**: 10%
+  - 5% to holders as MMF dividends
+  - 3% to liquidity pool
+  - 2% to marketing wallet
+
+## 🛣️ Roadmap
+
+### Phase 1: Launch
+- Initial Coin Offering (ICO)
+- Website and social media launch
+- Community building initiatives
+- Initial marketing campaigns
+- Listing on DEX platforms
+
+### Phase 2: Growth
+- CEX listings
+- Partnership announcements
+- Enhanced marketing campaigns
+- Community expansion initiatives
+- Development of additional features
+
+### Phase 3: Expansion
+- Development of DeFi ecosystem
+- Launch of staking platform
+- Cross-chain integration
+- Strategic partnerships
+- Expansion of use cases
+
+### Phase 4: Maturity
+- Governance system implementation
+- DAO establishment
+- Ecosystem expansion
+- Long-term sustainability measures
+- Community-led development initiatives
+
+## 💻 Technical Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Framework**: Bootstrap 5
+- **Web3 Integration**: Web3.js
+- **Smart Contracts**: Solidity
+- **Blockchain**: Binance Smart Chain
+
+## 🚀 Getting Started
 
+1. Clone the repository:
 ```bash
-npm run package
+git clone https://github.com/yourusername/memefi.git
+cd memefi
 ```
 
-This will create a `dist` directory and generate a `website.zip` file containing all necessary website files.
-
-### Deploying the Website
-
-To prepare the website for deployment, run these commands:
-
+2. Open the project in your browser:
 ```bash
-npm run build   # First build the website
-npm run deploy  # Then deploy the website
+# If you have Python installed
+python -m http.server 8000
+# Then visit http://localhost:8000
 ```
 
-This will create a `deploy` directory containing all files needed for deployment, along with startup scripts:
-- On Linux/Mac: Use `./start.sh`
-- On Windows: Use `start.bat`
+3. Connect your wallet and participate in the IDO.
 
-### Custom Deployment Directory
+## 📱 Connect With Us
 
-You can customize the deployment directory by setting the `DEPLOY_DIR` environment variable:
+<div align="center">
+  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/MemeFi_bsc)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/BSC_memefinance)
 
-```bash
-# On Linux/Mac
-DEPLOY_DIR=/path/to/deploy npm run deploy
+</div>
 
-# On Windows
-set DEPLOY_DIR=C:\path\to\deploy
-npm run deploy
-```
+## 📄 License
 
-## Tech Stack
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- **Frontend Framework**: Next.js 14
-- **UI Library**: React 18
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Blockchain Integration**: ethers.js, wagmi, web3modal
-- **Deployment**: Static Export + Node.js Server 
+## ⚠️ Disclaimer
+
+Cryptocurrency investments are volatile and high-risk. The information provided in this repository is for educational purposes only and does not constitute financial advice. Always conduct your own research before investing.
+
+---
+
+<div align="center">
+  <p>© 2025 MEMEFI. All Rights Reserved.</p>
+  <p>Made with ❤️ by the MEMEFI Team</p>
+</div> 
